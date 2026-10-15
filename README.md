@@ -4,6 +4,10 @@ A mobile-first responsive image grid for a made-up magazine, built as a small de
 
 **Live:** https://chris-mech.github.io/pagefold-magazine/
 
+| Desktop                                                                                                                                                  | Phone                                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="docs/screenshot.png" alt="Pagefold on a desktop screen: masthead, category filter and a four-column grid of magazine photo cards" width="560"> | <img src="docs/screenshot-mobile.png" alt="Pagefold on a phone: masthead, category filter and a single column of photo cards" width="162"> |
+
 ## Features
 
 - Responsive CSS Grid: 1 column on phones, 2 on tablets, 3–4 on desktop
