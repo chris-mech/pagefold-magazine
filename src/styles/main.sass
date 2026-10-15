@@ -1,0 +1,40 @@
+@use "variables" as v
+@use "functions" as f
+@use "mixins" as m
+
+*, *::before, *::after
+  box-sizing: border-box
+
+body
+  margin: 0
+  font-family: v.$font-family-body
+  line-height: 1.5
+  color: v.$color-ink
+  background-color: v.$color-paper
+
+h1, h2, p
+  margin: 0
+
+h1, h2
+  font-family: v.$font-family-heading
+  line-height: 1.2
+
+img
+  display: block
+  max-width: 100%
+  height: auto
+
+:focus-visible
+  outline: f.rem(3px) solid v.$color-focus
+  outline-offset: f.rem(2px)
+
+.page
+  max-width: v.$content-max-width
+  margin-inline: auto
+  padding: f.rem(v.$space-m)
+
+  @include m.breakpoint(tablet)
+    padding: f.rem(v.$space-l)
+
+  @include m.breakpoint(desktop)
+    padding: f.rem(v.$space-xl)
