@@ -1,0 +1,15 @@
+@use "sass:map"
+@use "variables" as v
+@use "functions" as f
+
+@mixin breakpoint($name)
+  @if not map.has-key(v.$breakpoints, $name)
+    @error "Unknown breakpoint '#{$name}'. Use one of: #{map.keys(v.$breakpoints)}"
+  @media (min-width: map.get(v.$breakpoints, $name))
+    @content
+
+@mixin card-surface
+  background-color: v.$color-surface
+  border-radius: f.rem(v.$radius)
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12)
+  overflow: hidden
