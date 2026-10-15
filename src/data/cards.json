@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "travel-1.jpg",
+    "alt": "Aerial view of a coastal town in Grenada, with brightly painted houses packed along a narrow beach and small boats on a turquoise sea.",
+    "title": "Colour on the Coast in Gouyave",
+    "category": "Travel"
+  },
+  {
+    "id": 2,
+    "image": "food-1.jpg",
+    "alt": "Breakfast table seen from above: fried eggs on avocado toast, waffles topped with strawberries and blueberries, glasses of orange juice and cups of coffee.",
+    "title": "The Long Weekend Breakfast",
+    "category": "Food"
+  },
+  {
+    "id": 3,
+    "image": "architecture-1.jpg",
+    "alt": "White marble spiral staircase with a curved wooden handrail sweeping up through a dark, quiet hall.",
+    "title": "The Staircase That Turns Twice",
+    "category": "Architecture"
+  },
+  {
+    "id": 4,
+    "image": "nature-1.jpg",
+    "alt": "Misty pine forest with sunlight breaking through the trees onto a green forest floor.",
+    "title": "Morning Light in the Pines",
+    "category": "Nature"
+  },
+  {
+    "id": 5,
+    "image": "travel-2.jpg",
+    "alt": "View through a train window between two empty orange seats, looking out at a waterfall running down a green, wooded mountainside.",
+    "title": "The Slow Train to Flåm",
+    "category": "Travel"
+  },
+  {
+    "id": 6,
+    "image": "food-2.jpg",
+    "alt": "Cup of coffee on a saucer next to a plate of golden croissants, lit by warm sunlight in a café.",
+    "title": "Croissants and a Quiet Coffee",
+    "category": "Food"
+  },
+  {
+    "id": 7,
+    "image": "architecture-2.jpg",
+    "alt": "Curved stainless steel walls of the Walt Disney Concert Hall rising against a pale blue sky.",
+    "title": "Symphony in Steel",
+    "category": "Architecture"
+  },
+  {
+    "id": 8,
+    "image": "nature-2.jpg",
+    "alt": "Calm green lake framed by tall pine trees, with misty mountains in the distance.",
+    "title": "Still Water at Lago di Braies",
+    "category": "Nature"
+  }
+]
